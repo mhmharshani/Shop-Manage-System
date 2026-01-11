@@ -1,0 +1,19 @@
+body{
+    background-color: #c6ecae;
+}
+
+.main_area{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.product_img{
+    width: 30%;
+}
+
+#button_save{
+    background-color: #c6ecae;
+    border: none;
+}

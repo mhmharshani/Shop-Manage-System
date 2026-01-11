@@ -11,6 +11,84 @@
 </head>
 <body>
 
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assests/img/logo_shop.png" alt="Logo" width="40" height="30"
+                            class="d-inline-block align-text-top">
+                        Luxury Home
+                    </a>
+                </div>
+               
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success ms-1" type="button" id="button_add">Add </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <div class="main_area">
+
+        <div class="row row-cols-1 row-cols-md-4 g-2" id="product_container">
+            <!-- <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bell Pepper</h5>
+                        <p class="card-text">Rs. 1000</p>
+                        <p>Food</p>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+
+    </div>
+
+    <div class="modal_box">
+
+
+    </div>
+
+    <div class="modal" tabindex="-1" id="modal_box_add_products">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="button_close_top"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Title</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Price</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Category</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Image URL</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="button_close">Close</button>
+                    <button type="button" class="btn btn-primary" id="button_save">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
 
